@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
@@ -264,4 +265,321 @@ footer {
 .experience-img i {
     line-height: 180px; /* Matches the height of the image box */
     color: #94a3b8;
+=======
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Sticky Navigation Bar (Frosted Glass Effect) */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e4e6eb;
+    z-index: 1000;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #3b82f6; /* Bright Blue Hover */
+}
+
+/* Header Styling (Gradient Background) */
+header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #fff;
+    padding: 4rem 1rem;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3b82f6;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.header-text h2 {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #94a3b8;
+}
+
+.header-text p {
+    margin: 0;
+    color: #cbd5e1;
+}
+
+/* Global Section & Card Styling */
+.section-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: #fff;
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #0f172a;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.section-title {
+    text-align: center;
+    display: block;
+    border: none;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Experience Cards with Image Grid Layout */
+.experience-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reverse-layout {
+    flex-direction: row-reverse;
+}
+
+.experience-content {
+    flex: 1;
+}
+
+.experience-content h4 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #1e293b;
+}
+
+.company-date {
+    margin: 0.3rem 0 1rem 0;
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+.experience-img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* List Styling */
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    color: #475569;
+}
+
+strong {
+    color: #0f172a;
+}
+/* Download Button Styling */
+.btn-download {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #3b82f6;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
+}
+
+.btn-download:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+/* Footer Styling Update for Icons */
+footer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    border-top: 4px solid #3b82f6;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Creates even spacing between the platforms */
+    flex-wrap: wrap; /* Ensures they stack nicely on mobile phones */
+}
+
+.social-links a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex; /* Aligns the icon and text horizontally */
+    align-items: center; 
+    gap: 0.5rem; /* Space between the logo and the word */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Makes the logos slightly larger than the text */
+.social-links a i {
+    font-size: 1.3rem; 
+}
+
+/* Hover effect: Turns white and floats up slightly */
+.social-links a:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+/* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #f8fafc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.btn-submit {
+    background-color: #1e293b;
+    color: #ffffff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-submit:hover {
+    background-color: #3b82f6;
+}
+/* Mobile Responsiveness (Media Queries) */
+@media (max-width: 768px) {
+    /* Stack header elements vertically and center text */
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* Shrink the main title slightly for mobile screens */
+    .header-text h1 {
+        font-size: 2rem;
+    }
+    
+    /* Stack experience text and images vertically */
+    .experience-card, .reverse-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* Make the images span the full width of the mobile card */
+    .experience-img {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+    }
+
+    /* Bring navigation links a bit closer together */
+    .nav-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+>>>>>>> 1798ff4d77d3fa086b22b44d7946b2a9b7fba427
 }
